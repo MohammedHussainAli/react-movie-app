@@ -1,0 +1,82 @@
+.media {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  padding: 5px;
+  margin: 5px 0;
+  background-color: #282c34;
+  border-radius: 10px;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+
+.media:hover {
+  background-color: #20c997;
+  color: black;
+}
+
+@media (max-width: 550px) {
+  .media {
+    width: 46%;
+  }
+}
+
+.poster {
+  border-radius: 10px;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  font-size: 17px;
+  padding: 8px 0;
+}
+
+.subTitle {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3px;
+  padding: 0 2px;
+  padding-bottom: 3px;
+}
+.custom-dialog {
+  /* width: 90%;
+  height: 80%; */
+  background-color: #39445a;
+  border: 1px solid #282c34;
+  border-radius: 10px;
+  color: white;
+}
+
+.dialog-content {
+  display: flex;
+}
+
+.poster-wrapper {
+  flex: 0 0 30%;
+  padding-right: 1rem;
+}
+
+.poster {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.overview {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+  overflow-y: auto;
+  font-size: 17px;
+  font-family: "Montserrat", sans-serif;
+}
+.title2 {
+  font-size: 20px !important;
+  font-weight: bolder !important;
+}

@@ -1,0 +1,26 @@
+.header {
+  width: 100%;
+  cursor: pointer;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 15px;
+  box-shadow: 0px 1px 5px rgb(255, 255, 255);
+  z-index: 100;
+  font-size: 3em;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 0 5px #32faf6, 0 0 10px #5dfce4, 0 0 20px #000000,
+    0 0 40px #000000;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
+}
+
+@media (max-width: 1000px) {
+  .header {
+    padding-top: 15px;
+    font-size: 6.4vw;
+  }
+}
