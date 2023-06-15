@@ -16,9 +16,9 @@ const Trending = () => {
           `https://api.themoviedb.org/3/tv/airing_today?language=en-US&page=1${page}`,
           {
             headers: {
-              Accept: "application/json",
+              accept: "application/json",
               Authorization:
-                "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiNjYwN2I4ZTNlYTA4NDZlNWUwNWRjZjczODQwYWYzYyIsInN1YiI6IjY0OGE3M2FjNTU5ZDIyMDExYzRhMzZhZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.GOvct6FWpoUaKCPuYWbuSHuPRIAiu8XBTYcFNYmUr5o",
+                "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyNDFiOTcxYTQ2ZWM5NGFkMGE5ZmFiYTFhZDI1NzA4ZCIsInN1YiI6IjY0OGE3M2FjNTU5ZDIyMDExYzRhMzZhZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.ejnfd-2f3ocqSCS7qh_xlX5ZPLOif4qZlZ3Yp5HJvJs",
             },
           }
         );
@@ -34,7 +34,7 @@ const Trending = () => {
   }, [page]);
   return (
     <div>
-      <span className="pageTitle">Trending Today</span>
+      <span className="pageTitle">❤️‍🔥Trending Today🔥</span>
       <div className="trending">
         {trendingData &&
           trendingData.map((c) => (

@@ -25,6 +25,7 @@
   padding: 4px;
   border-radius: 50px;
   color: white;
+  margin: -1rem 0rem 0.5rem 0rem !important;
 }
 
 @media (max-width: 1000px) {

@@ -18,6 +18,10 @@ export default function SimpleBottomNavigation() {
     } else if (value === 2) {
       navigate("/search");
     }
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // Smooth scroll behavior
+    });
   }, [value, navigate]);
 
   return (

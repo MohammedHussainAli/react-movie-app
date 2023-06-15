@@ -15,9 +15,9 @@ const Movies = () => {
           `https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=${page}&sort_by=popularity.desc`,
           {
             headers: {
-              Accept: "application/json",
+              accept: "application/json",
               Authorization:
-                "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiNjYwN2I4ZTNlYTA4NDZlNWUwNWRjZjczODQwYWYzYyIsInN1YiI6IjY0OGE3M2FjNTU5ZDIyMDExYzRhMzZhZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.GOvct6FWpoUaKCPuYWbuSHuPRIAiu8XBTYcFNYmUr5o",
+                "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyNDFiOTcxYTQ2ZWM5NGFkMGE5ZmFiYTFhZDI1NzA4ZCIsInN1YiI6IjY0OGE3M2FjNTU5ZDIyMDExYzRhMzZhZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.ejnfd-2f3ocqSCS7qh_xlX5ZPLOif4qZlZ3Yp5HJvJs",
             },
           }
         );
@@ -34,7 +34,7 @@ const Movies = () => {
 
   return (
     <div>
-      <span className="pageTitle">Discover Movies</span>
+      <span className="pageTitle">🔍 Discover Movies</span>
       <div className="trending">
         {content &&
           content.map((c) => (
